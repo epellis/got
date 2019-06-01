@@ -10,7 +10,8 @@ var rootCmd = &cobra.Command{
 	Use:   "got",
 	Short: "Got is a Toy Version Control System",
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("Hello World")
+		// TODO: This is where the magic happens
+		fmt.Println("To see workflows, go to https://github.com/epellis/got")
 	},
 }
 
